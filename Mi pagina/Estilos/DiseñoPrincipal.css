@@ -1,0 +1,81 @@
+/* PAGINA PRINCIPAL */
+#Pagina_Principal{
+    background-color: rgb(22, 22, 22);
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: FuenteTitulo;
+    src: url(/Fuentes/FuenteTitulo.ttf);
+}
+@font-face {
+    font-family: Parrafos ;
+    src: url(/Fuentes/Parrafos.ttf);
+}
+
+#Titulo{
+    background-color: black;
+    color: rgb(0, 0, 0);
+    border: solid gold;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    font-size: 1cm;
+    font-family: FuenteTitulo;
+}
+
+#Icono{
+    display: flex;
+    justify-content: center;
+}
+
+#Link_Paginas{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 300px 10px 300px;
+    font-size: 1cm;
+    color: aliceblue;
+}
+
+.Descripcion{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Parrafos;
+    padding: 10px;
+    margin: 30px;
+}
+
+#Caratulas{
+    background-image: rgba(255, 11, 11, 0.15);
+
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px 50px 200px ;
+}
+
+#Final_Redes{
+    background-color: black;
+    padding: 100px;
+    margin: 0px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+@media screen and(max-width:768px){ 
+    #titulo{
+        font-size: 0.2cm;
+        color: beige;
+    }
+    #Img{
+        width: 100px;;
+    }
+}
